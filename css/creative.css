@@ -3,6 +3,27 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
+@font-face {
+  font-family: 'Geogrotesque';
+  src: url("../vendor/fonts/Geogrotesque-Regular.eot");
+  src: url("../vendor/fonts/Geogrotesque-Regular.eot?#iefix") format("embedded-opentype"), url("../vendor/fonts/Geogrotesque-Regular.woff") format("woff"), url("../vendor/fonts/Geogrotesque-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Geogrotesque Bold';
+  src: url("../vendor/fonts/Geogrotesque-Bold.eot");
+  src: url("../vendor/fonts/Geogrotesque-Bold.eot?#iefix") format("embedded-opentype"), url("../vendor/fonts/Geogrotesque-Bold.woff") format("woff"), url("../vendor/fonts/Geogrotesque-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Geogrotesque Italic';
+  src: url("../vendor/fonts/Geogrotesque-RegularItalic.eot");
+  src: url("../vendor/fonts/Geogrotesque-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../vendor/fonts/Geogrotesque-RegularItalic.woff") format("woff"), url("../vendor/fonts/Geogrotesque-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
 body,
 html {
   width: 100%;
@@ -89,6 +110,7 @@ body {
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   #mainNav .navbar-brand {
+    display: none;
     font-weight: 700;
     text-transform: uppercase;
     color: #07367B;
