@@ -151,6 +151,8 @@ body {
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover,
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         background-color: transparent; }
+  #mainNav.navbar-shrink {
+    display: inherit; }
   @media (min-width: 768px) {
     #mainNav {
       display: inherit;
@@ -170,6 +172,7 @@ body {
         border-color: rgba(34, 34, 34, 0.05);
         background-color: white; }
         #mainNav.navbar-shrink .navbar-brand {
+          display: inherit;
           font-size: 16px;
           color: #07367B; }
           #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
@@ -247,7 +250,7 @@ header.masthead {
         margin-left: auto; }
   @media (min-width: 768px) {
     header.masthead {
-      min-height: 600px; }
+      min-height: 880px; }
       header.masthead .header-announce {
         padding-top: 100px; }
         header.masthead .header-announce h1 {
